@@ -1,9 +1,12 @@
 {
-  "name": "@eyejack/transcoder",
+  "name": "@mythologi-xr/eyejack-transcoder",
   "version": "0.1.0",
   "license": "MIT",
-  "private": true,
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": ["dist", "public/ffmpeg", "src"],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "src/index.ts",
